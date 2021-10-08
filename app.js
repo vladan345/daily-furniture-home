@@ -48,9 +48,9 @@ function handleContent(counter) {
   sliderImage.style.opacity = 0;
   heroText.ontransitionend = () => {
     if (sliderImage.style.backgroundImage.includes('desktop')) {
-      sliderImage.style.backgroundImage = `url("../images/desktop-image-hero-${counter}.jpg")`;
+      sliderImage.style.backgroundImage = `url("https://github.com/vladan345/daily-furniture-home/blob/main/images/desktop-image-hero-${counter}.jpg")`;
     } else {
-      sliderImage.style.backgroundImage = `url("../images/mobile-image-hero-${counter}.jpg")`;
+      sliderImage.style.backgroundImage = `url("https://github.com/vladan345/daily-furniture-home/blob/main/images/mobile-image-hero-${counter}.jpg")`;
     }
     heading.innerHTML = textArray[counter - 1].heading;
     paragraph.innerHTML = textArray[counter - 1].para;
@@ -61,9 +61,9 @@ function handleContent(counter) {
 
 function updateImage() {
   if (window.innerWidth < 800) {
-    sliderImage.style.backgroundImage = `url("../images/mobile-image-hero-1.jpg")`;
+    sliderImage.style.backgroundImage = `url("https://github.com/vladan345/daily-furniture-home/blob/main/images/mobile-image-hero-1.jpg")`;
   } else {
-    sliderImage.style.backgroundImage = `url("../images/desktop-image-hero-1.jpg")`;
+    sliderImage.style.backgroundImage = `url("https://github.com/vladan345/daily-furniture-home/blob/main/images/desktop-image-hero-1.jpg")`;
   }
 }
 leftArrow.addEventListener('click', changeContent);
