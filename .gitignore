@@ -4,9 +4,8 @@
 ###############################################
 *.sketch
 
-README-template.md
-README.md
 style/style.scss
+style/style.css.map
 style/_global.scss
 # Avoid accidental XD or Figma upload if you convert the design file
 #######################################################
